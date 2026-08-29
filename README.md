@@ -22,3 +22,16 @@ Possuir o **Node.js** e o **npm** instalados na sua máquina.
 1. **Clonar o repositório:**
    ```bash
    git clone [https://github.com/CarolineCarone/API-Connect.git](https://github.com/CarolineCarone/API-Connect.git)
+
+cd API-Connect
+
+npm install
+
+npm run dev
+
+O servidor estará rodando no endereço http://localhost:3000.
+
+Tratamento de Erros e Respostas
+400 Bad Request: Retornado quando a validação no cadastro identifica ausência ou invalidade dos campos obrigatórios (nome e email).
+
+404 Not Found: Retornado quando o parâmetro :id informado em buscas, atualizações ou remoções não é localizado na base de dados.
